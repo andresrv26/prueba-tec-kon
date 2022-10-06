@@ -1,0 +1,8 @@
+producto con mas stock
+
+select max(p.stock_producto) from producto p ;
+
+
+producto mas vendido
+
+select *, sum(v.producto_idproducto) from venta v ;
